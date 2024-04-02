@@ -38,7 +38,7 @@ local
 	input,
 	internetExecute =
 
-	"MineOS EFI",
+	"BeowulfOS EFI",
 	"Change label",
 	"key_down",
 	"component_added",
@@ -450,7 +450,7 @@ while uptime() < deadline do
 
 		if internetAddress then	
 			tableInsert(utilities, 2, newMenuElement("System recovery", function()
-				internetExecute("https://tinyurl.com/29urhz7z")
+				internetExecute("https://raw.githubusercontent.com/CMDW01F/BeowulfOS/System/Initialisierer/Main.lua")
 			end))
 			
 			tableInsert(utilities, 3, newMenuElement(stringsURLBoot, function()

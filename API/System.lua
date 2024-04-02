@@ -70,7 +70,7 @@ end
 
 function system.getDefaultUserSettings()
 	return {
-		localizationLanguage = "English",
+		localizationLanguage = "German",
 
 		timeFormat = "%d %b %Y %H:%M:%S",
 		timeRealTimestamp = true,
@@ -334,7 +334,7 @@ local function addMainDesktopMenuItem(menu)
 		container.layout:removeChildren()
 		
 		local lines = {
-			"MineOS",
+			"BeowulfOS",
 			"Copyright © 2014-" .. os.date("%Y", system.getTime()),
 			" ",
 			"Developers:",
