@@ -1,1 +1,1 @@
-wget -f https://raw.githubusercontent.com/IgorTimofeev/MineOS/master/Installer/BIOS.lua /tmp/bios.lua && flash -q /tmp/bios.lua && reboot
+wget -f raw.githubusercontent.com/CMDW01F/BeowulfOS/System/Initialisierer/BIOS.lua /tmp/bios.lua && flash -q /tmp/bios.lua && reboot
