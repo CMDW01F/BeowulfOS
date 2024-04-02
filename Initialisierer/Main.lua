@@ -14,7 +14,7 @@ component.invoke(GPUAddress, "bind", getComponentAddress("screen"))
 local screenWidth, screenHeight = component.invoke(GPUAddress, "getResolution")
 
 local repositoryURL = "https://raw.githubusercontent.com/CMDW01F/BeowulfOS/System/"
-local installerURL = "Installer/"
+local installerURL = "Initialisierer/"
 local EFIURL = "EFI/Minified.lua"
 
 local installerPath = "/MineOS installer/"
