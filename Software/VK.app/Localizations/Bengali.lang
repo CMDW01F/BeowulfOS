@@ -184,7 +184,7 @@
 		gift = "উপহার",
 		audio_message = "শ্রুতি",
 	},
-	sentFromMineOS = "(MineOS VK ক্লায়েন্টের মাধ্যমে প্রেরিত)",
+	sentFrom = "( VK ক্লায়েন্টের মাধ্যমে প্রেরিত)",
 	
 	documents = "নথিপত্র",
 	documentsCount = "মোট নথি",

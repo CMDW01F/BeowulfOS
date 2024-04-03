@@ -184,7 +184,7 @@
 		gift = "darček",
 		audio_message = "audio",
 	},
-	sentFromMineOS = "(Odoslané cez klienta MineOS VK)",
+	sentFrom = "(Odoslané cez klienta  VK)",
 	
 	documents = "Dokumenty",
 	documentsCount = "Celkom dokumentov",

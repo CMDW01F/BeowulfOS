@@ -17,7 +17,7 @@ local repositoryURL = "https://raw.githubusercontent.com/CMDW01F/BeowulfOS/Syste
 local installerURL = "Initialisierer/"
 local EFIURL = "EFI/Minified.lua"
 
-local installerPath = "/MineOS installer/"
+local installerPath = "/BeowulfOS Installer/"
 local installerPicturesPath = installerPath .. "Initialisierer/Bilder/"
 local OSPath = "/"
 
@@ -242,7 +242,7 @@ window:addChild(GUI.panel(1, 1, window.width, window.height, 0xE1E1E1))
 
 -- Top menu
 local menu = workspace:addChild(GUI.menu(1, 1, workspace.width, 0xF0F0F0, 0x787878, 0x3366CC, 0xE1E1E1))
-local installerMenu = menu:addContextMenuItem("MineOS", 0x2D2D2D)
+local installerMenu = menu:addContextMenuItem("BeowulfOS", 0x2D2D2D)
 
 installerMenu:addItem("🗘", "Reboot").onTouch = function()
 	computer.shutdown(true)

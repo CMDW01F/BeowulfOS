@@ -184,7 +184,7 @@
 		gift = "هدية مجانية",
 		audio_message = "صوتي"
 	},
-	sentFromMineOS = "(تم الإرسال عبر MineOS VK Client)",
+	sentFrom = "(تم الإرسال عبر  VK Client)",
 	
 	documents = "وثائق",
 	documentsCount = "إجمالي المستندات",

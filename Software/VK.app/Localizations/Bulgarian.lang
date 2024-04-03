@@ -184,7 +184,7 @@
 		gift = "подарък",
 		audio_message = "аудио",
 	},
-	sentFromMineOS = "(Изпратено чрез MineOS VK Client)",
+	sentFrom = "(Изпратено чрез  VK Client)",
 	
 	documents = "Документи",
 	documentsCount = "Общо документи",
