@@ -18,7 +18,7 @@ local installerURL = "Initialisierer/"
 local EFIURL = "EFI/Minified.lua"
 
 local installerPath = "/MineOS installer/"
-local installerPicturesPath = installerPath .. "Installer/Pictures/"
+local installerPicturesPath = installerPath .. "Initialisierer/Bilder/"
 local OSPath = "/"
 
 local temporaryFilesystemProxy, selectedFilesystemProxy
