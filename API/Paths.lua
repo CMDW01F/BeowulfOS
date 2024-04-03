@@ -3,14 +3,14 @@ local paths = {system = {}, user = {}}
 
 --------------------------------------------------------------------------------
 
-paths.system.libraries = "/Libraries/"
-paths.system.applications = "/Applications/"
-paths.system.icons = "/Icons/"
-paths.system.localizations = "/Localizations/"
+paths.system.libraries = "/API/"
+paths.system.applications = "/Software/"
+paths.system.icons = "/Icon/"
+paths.system.localizations = "/Sprache/"
 paths.system.extensions = "/Extensions/"
 paths.system.mounts = "/Mounts/"
 paths.system.temporary = "/Temporary/"
-paths.system.wallpapers = "/Wallpapers/"
+paths.system.wallpapers = "/Hintergrund/"
 paths.system.users = "/Users/"
 paths.system.versions = "/Versions.cfg"
 
@@ -40,9 +40,9 @@ function paths.getUser(name)
 	user.home = paths.system.users .. name .. "/"
 	user.applicationData = user.home .. "Application data/"
 	user.desktop = user.home .. "Desktop/"
-	user.libraries = user.home .. "Libraries/"
-	user.applications = user.home .. "Applications/"
-	user.wallpapers = user.home .. "Wallpapers/"
+	user.libraries = user.home .. "API/"
+	user.applications = user.home .. "Software/"
+	user.wallpapers = user.home .. "Hintergrund/"
 	user.trash = user.home .. "Trash/"
 	user.settings = user.home .. "Settings.cfg"
 	user.versions = user.home .. "Versions.cfg"

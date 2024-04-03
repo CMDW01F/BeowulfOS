@@ -38,7 +38,7 @@ end
 -- Initializing global package system
 package = {
 	paths = {
-		["/Libraries/"] = true
+		["/API/"] = true
 	},
 	loaded = {},
 	loading = {}
